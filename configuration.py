@@ -25,10 +25,10 @@ class Configuration:
 
     def __init__(
         self,
-        grid_width=15,
-        grid_height=15,
+        grid_width=16,
+        grid_height=16,
         cell_size=40,
-        step_delay=200,
+        step_delay=150,
         powerup_chance=0.01,
         obstacle_density=0.2,
     ):
