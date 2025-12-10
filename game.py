@@ -196,8 +196,8 @@ class Game:
 
         # initialize list of candidate cells.
         cells = []
-        for x in range(self.config.grid_width):
-            for y in range(self.config.grid_height):
+        for x in range(self.config.grid_width-1):
+            for y in range(self.config.grid_height-1):
                 cell = (x, y)
                 # check if cell is occupied
                 if cell in occupied:
