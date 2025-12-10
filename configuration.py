@@ -25,8 +25,8 @@ class Configuration:
 
     def __init__(
         self,
-        grid_width=16,
-        grid_height=16,
+        grid_width=15,
+        grid_height=15,
         cell_size=40,
         step_delay=150,
         powerup_chance=0.01,
