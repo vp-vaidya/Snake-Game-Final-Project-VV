@@ -84,7 +84,7 @@ class TestGame(unittest.TestCase):
         game.next_direction = "Left"
 
         game.step()
-        self.assertFalse(game.game_over)
+        self.assertFalse(game.game_over) 
         self.assertEqual(game.direction, "Right")
 
     def test_obstacle_collision_ends_game(self):
