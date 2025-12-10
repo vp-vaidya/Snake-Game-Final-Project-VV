@@ -1,14 +1,14 @@
 # Snake Game
 
-A classic grid-based Snake game built with Python and Tkinter. Control a growing snake to eat food and power-ups while avoiding obstacles and walls.
+This is an implementation of the classic Snake game built with Python and Tkinter. Control a snake in a grid with arrow keys to eat food and power-ups while avoiding obstacles and walls. Obstacles can be toggled off but it is set as default.
 
 ## Files
 
 **Files**
 - `configuration.py` - Game settings (board size, speed, power-ups, obstacles)
 - `game.py` - Game logic (movement, collisions, scoring)
-- `draw.py` - Rendering layer using Tkinter Canvas
-- `main.py` - Main application window and game loop
+- `draw.py` - Rendering layer
+- `main.py` - Main application window using Tkinter Canvas and game loop
 - `test_snake.py` - unit tests
 
 ## Code Classes
@@ -26,7 +26,7 @@ The game includes:
 - Food (+1 point, +1 growth) and power-ups (+2 points, +2 growth)
 - Randomly generated 2×2 obstacle blocks
 - Wrap Walls - Snake wraps around board edges instead of dying
-- Invincible Mode - Snake bounces off obstacles/walls and can intersect itself
+- Invincible Mode - Snake bounces off obstacles/walls and can intersect itself (The game can go on forever with invincibility on)
 - Configurable board size, speed, obstacle density, and power-up frequency
 - Pause/Resume functionality
 
